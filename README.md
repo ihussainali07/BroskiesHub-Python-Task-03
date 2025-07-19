@@ -21,10 +21,18 @@ BBCNewsScraper/
 - README.md 
 
 # 🧠 How It Works
+
 Sends an HTTP GET request to https://www.bbc.news/
 
 - Parses the HTML content using BeautifulSoup
-- Extracts all <h2 class="heading"> elements (these contain the top headlines)
-- Writes each headline to geo_headlines.txt in numbered format
+- Extracts all <h2 class="heading"> 
+- Writes each headline to bbc_headlines.txt in numbered format
+
+# 📝 Sample Output
+
+1. NASA prepares for new moon landing
+2. Inflation eases across Europe
+3. Protests erupt in major cities
+.....
 
 
