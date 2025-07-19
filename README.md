@@ -20,9 +20,10 @@ BBCNewsScraper/
 - bbc_headlines.txt (Output file)
 - README.md 
 
-🧠 How It Works
+# 🧠 How It Works
+
 - Requests BBC News homepage HTML.
-- Parses it to find all <h3 class="gs-c-promo-heading__title"> tags.
+- Parses it to find all <h3 class= <"gs-c-promo-heading__title"> tags.
 - Saves the cleaned text into a .txt file.
 
 # 📝 Sample Output
