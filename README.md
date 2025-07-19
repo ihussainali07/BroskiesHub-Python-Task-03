@@ -20,13 +20,10 @@ BBCNewsScraper/
 - bbc_headlines.txt (Output file)
 - README.md 
 
-# 🧠 How It Works
-
-Sends an HTTP GET request to https://www.bbc.news/
-
-- Parses the HTML content using BeautifulSoup
-- Extracts all <h2 class="heading"> 
-- Writes each headline to bbc_headlines.txt in numbered format
+🧠 How It Works
+- Requests BBC News homepage HTML.
+- Parses it to find all <h3 class="gs-c-promo-heading__title"> tags.
+- Saves the cleaned text into a .txt file.
 
 # 📝 Sample Output
 
